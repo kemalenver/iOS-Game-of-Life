@@ -17,8 +17,11 @@
 		0A4C242316281ADC007DA868 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C242216281ADC007DA868 /* Default@2x.png */; };
 		0A4C242516281ADC007DA868 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C242416281ADC007DA868 /* Default-568h@2x.png */; };
 		0A4C242816281ADC007DA868 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C242716281ADC007DA868 /* LViewController.m */; };
-		0A4C242B16281ADC007DA868 /* LViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C242916281ADC007DA868 /* LViewController_iPhone.xib */; };
-		0A4C242E16281ADC007DA868 /* LViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A4C242C16281ADC007DA868 /* LViewController_iPad.xib */; };
+		0A5FF405162C055E001A7E00 /* LGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5FF404162C055E001A7E00 /* LGrid.m */; };
+		0A5FF407162C0765001A7E00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5FF406162C0765001A7E00 /* QuartzCore.framework */; };
+		0A5FF40A162C11FC001A7E00 /* LSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5FF409162C11FC001A7E00 /* LSimulation.m */; };
+		0A7DFEB9162C68E10038F3BD /* bacteria-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DFEB8162C68E10038F3BD /* bacteria-icon.png */; };
+		0A7DFEBC162C69100038F3BD /* bacteria-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A7DFEBB162C69100038F3BD /* bacteria-icon2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +35,18 @@
 		0A4C241C16281ADC007DA868 /* life-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "life-Prefix.pch"; sourceTree = "<group>"; };
 		0A4C241D16281ADC007DA868 /* LAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAppDelegate.h; sourceTree = "<group>"; };
 		0A4C241E16281ADC007DA868 /* LAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAppDelegate.m; sourceTree = "<group>"; };
-		0A4C242016281ADC007DA868 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		0A4C242216281ADC007DA868 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		0A4C242416281ADC007DA868 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0A4C242016281ADC007DA868 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = life/Default.png; sourceTree = "<group>"; };
+		0A4C242216281ADC007DA868 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "life/Default@2x.png"; sourceTree = "<group>"; };
+		0A4C242416281ADC007DA868 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "life/Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A4C242616281ADC007DA868 /* LViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LViewController.h; sourceTree = "<group>"; };
 		0A4C242716281ADC007DA868 /* LViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LViewController.m; sourceTree = "<group>"; };
-		0A4C242A16281ADC007DA868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LViewController_iPhone.xib; sourceTree = "<group>"; };
-		0A4C242D16281ADC007DA868 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LViewController_iPad.xib; sourceTree = "<group>"; };
+		0A5FF403162C055E001A7E00 /* LGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGrid.h; sourceTree = "<group>"; };
+		0A5FF404162C055E001A7E00 /* LGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGrid.m; sourceTree = "<group>"; };
+		0A5FF406162C0765001A7E00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A5FF408162C11FC001A7E00 /* LSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSimulation.h; sourceTree = "<group>"; };
+		0A5FF409162C11FC001A7E00 /* LSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSimulation.m; sourceTree = "<group>"; };
+		0A7DFEB8162C68E10038F3BD /* bacteria-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bacteria-icon.png"; sourceTree = "<group>"; };
+		0A7DFEBB162C69100038F3BD /* bacteria-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bacteria-icon2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5FF407162C0765001A7E00 /* QuartzCore.framework in Frameworks */,
 				0A4C240F16281ADC007DA868 /* UIKit.framework in Frameworks */,
 				0A4C241116281ADC007DA868 /* Foundation.framework in Frameworks */,
 				0A4C241316281ADC007DA868 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +84,7 @@
 		0A4C240D16281ADC007DA868 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A5FF406162C0765001A7E00 /* QuartzCore.framework */,
 				0A4C240E16281ADC007DA868 /* UIKit.framework */,
 				0A4C241016281ADC007DA868 /* Foundation.framework */,
 				0A4C241216281ADC007DA868 /* CoreGraphics.framework */,
@@ -85,13 +95,16 @@
 		0A4C241416281ADC007DA868 /* life */ = {
 			isa = PBXGroup;
 			children = (
+				0AB201DB1699C3D400AD1C43 /* Resources */,
+				0A4C241516281ADC007DA868 /* Supporting Files */,
 				0A4C241D16281ADC007DA868 /* LAppDelegate.h */,
 				0A4C241E16281ADC007DA868 /* LAppDelegate.m */,
 				0A4C242616281ADC007DA868 /* LViewController.h */,
 				0A4C242716281ADC007DA868 /* LViewController.m */,
-				0A4C242916281ADC007DA868 /* LViewController_iPhone.xib */,
-				0A4C242C16281ADC007DA868 /* LViewController_iPad.xib */,
-				0A4C241516281ADC007DA868 /* Supporting Files */,
+				0A5FF403162C055E001A7E00 /* LGrid.h */,
+				0A5FF404162C055E001A7E00 /* LGrid.m */,
+				0A5FF408162C11FC001A7E00 /* LSimulation.h */,
+				0A5FF409162C11FC001A7E00 /* LSimulation.m */,
 			);
 			path = life;
 			sourceTree = "<group>";
@@ -103,11 +116,21 @@
 				0A4C241716281ADC007DA868 /* InfoPlist.strings */,
 				0A4C241A16281ADC007DA868 /* main.m */,
 				0A4C241C16281ADC007DA868 /* life-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AB201DB1699C3D400AD1C43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				0A4C242016281ADC007DA868 /* Default.png */,
 				0A4C242216281ADC007DA868 /* Default@2x.png */,
 				0A4C242416281ADC007DA868 /* Default-568h@2x.png */,
+				0A7DFEBB162C69100038F3BD /* bacteria-icon2.png */,
+				0A7DFEB8162C68E10038F3BD /* bacteria-icon.png */,
 			);
-			name = "Supporting Files";
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +189,8 @@
 				0A4C242116281ADC007DA868 /* Default.png in Resources */,
 				0A4C242316281ADC007DA868 /* Default@2x.png in Resources */,
 				0A4C242516281ADC007DA868 /* Default-568h@2x.png in Resources */,
-				0A4C242B16281ADC007DA868 /* LViewController_iPhone.xib in Resources */,
-				0A4C242E16281ADC007DA868 /* LViewController_iPad.xib in Resources */,
+				0A7DFEB9162C68E10038F3BD /* bacteria-icon.png in Resources */,
+				0A7DFEBC162C69100038F3BD /* bacteria-icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +204,8 @@
 				0A4C241B16281ADC007DA868 /* main.m in Sources */,
 				0A4C241F16281ADC007DA868 /* LAppDelegate.m in Sources */,
 				0A4C242816281ADC007DA868 /* LViewController.m in Sources */,
+				0A5FF405162C055E001A7E00 /* LGrid.m in Sources */,
+				0A5FF40A162C11FC001A7E00 /* LSimulation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +218,6 @@
 				0A4C241816281ADC007DA868 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0A4C242916281ADC007DA868 /* LViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A4C242A16281ADC007DA868 /* en */,
-			);
-			name = LViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		0A4C242C16281ADC007DA868 /* LViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A4C242D16281ADC007DA868 /* en */,
-			);
-			name = LViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,6 +315,7 @@
 				0A4C243316281ADC007DA868 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

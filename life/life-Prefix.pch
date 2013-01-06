@@ -11,4 +11,17 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
 #endif
+
+// Not really the nicest way to define constants but it'l do for now
+// TODO: Make the grid dimensions variable depnding on device and the block
+// size that a user chooses in some settings
+
+#define squareSize 4.0f
+#define gridW 120
+#define gridH 80
+
+// Macro for defining a colour easily
+
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
