@@ -1,7 +1,8 @@
 iOS-Game-of-Life
 ================
 
-LICENSE:
+LICENSE
+=======
 
 You can do whatever you like with this code.  
 
@@ -34,6 +35,8 @@ Create a settings screen to allow the resolution of the simulation to be changed
 and that kind of thing.
 
 Kemal Enver
+
 www.kemalenver.com
+
 github.com/kemalenver
 
