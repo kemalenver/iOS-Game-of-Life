@@ -13,7 +13,8 @@ website, but that's not necessary (I'm just interested in what people will do wi
 What is it?
 ===========
 
-A simple implementation of Conways Game of Life in objective C for iOS devices.
+A simple implementation of Conways Game of Life in objective C for iOS devices.  It does drop into C though to handle
+arrays and things.  I thought it would be faster since there are so many array operations going on.
 
 It will compile in xcode very straighforwardly.  Just load up the project and hit run to see it in the simulator.
 
